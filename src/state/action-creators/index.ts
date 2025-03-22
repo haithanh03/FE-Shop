@@ -161,7 +161,7 @@ export const getProducts = (page: number) => {
       })
 
       const { data } = await axios.get(
-        `${SERVER.baseURL}/product/list/item?page=${page}&limit=8`
+        `${SERVER.baseURL}/product/list/item?page=${page}&limit=6`
       )
 
       dispatch({

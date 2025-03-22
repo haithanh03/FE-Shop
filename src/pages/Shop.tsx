@@ -53,7 +53,7 @@ const Shop = () => {
           {products && products.data
             ? products.data.map((product: any) => (
                 <Col
-                  key={product._id}
+                  key={product.id}
                   xs={12}
                   sm={6}
                   md={4}
@@ -62,7 +62,7 @@ const Shop = () => {
                   span={3}
                 >
                   <ItemCard
-                    id={product._id}
+                    id={product.id}
                     name={product.name}
                     image={product.image}
                     brand={product.brand}

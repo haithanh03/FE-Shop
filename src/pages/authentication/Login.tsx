@@ -101,7 +101,7 @@ const Login = () => {
                 color="gray"
                 radius="lg"
               >
-                Use [email: dohaiduong@gmail.com | password: 123456] to browse
+                Use [email: nguyenhaithanh@gmail.com | password: 123456] to browse
                 as an admin.
               </Alert>
             </Col>
